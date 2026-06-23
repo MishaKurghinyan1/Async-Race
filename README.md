@@ -1,7 +1,7 @@
 # Async-Race
 
-- **Deploy URL:** ******************\_\_******************
-- **Calculated Score:** ************\_\_\_\_************
+- **Deploy URL:** ********\*\*********\_\_********\*\*********
+- **Calculated Score:** ****\*\*\*\*****\_\_\_\_****\*\*\*\*****
 
 To run and test this application locally, you must run both the mock backend server and this frontend application simultaneously in separate terminal windows. **Do not clone the backend inside this frontend directory.**
 
@@ -10,7 +10,7 @@ To run and test this application locally, you must run both the mock backend ser
 Open a **brand new, separate terminal window**, navigate to your general projects or workspace directory (outside of this project), and run:
 
 ```bash
-git clone [https://github.com/mikhama/async-race-api.git](https://github.com/mikhama/async-race-api.git)
+git clone https://github.com/mikhama/async-race-api.git
 cd async-race-api
 npm install
 npm start
