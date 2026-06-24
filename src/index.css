@@ -2,10 +2,27 @@
   margin: 0;
   padding: 0;
   box-sizing: border-box;
+  cursor: url('@/assets/IMGs/cursor.png'), auto;
+  --main-color: #ffb743;
 }
 body {
-  min-height: 100vh;
+  background-image: url('@/assets/IMGs/background.jpg');
+  background-size: cover;
+  background-repeat: no-repeat;
+  backdrop-filter: blur(5px) brightness(0.3);
+  padding: 24px 48px;
+}
+
+body,
+#root {
   display: flex;
   justify-content: center;
-  padding: 24px 48px;
+  width: 100%;
+  min-height: 100vh;
+}
+
+@media (max-width: 768px) {
+  body {
+    padding: 36px 24px;
+  }
 }
