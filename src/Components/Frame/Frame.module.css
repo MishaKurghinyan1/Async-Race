@@ -3,7 +3,7 @@
   --corner-color: #f2a33b;
   --corner-length: 1.5rem;
   --corner-thickness: 3px;
-  --background-color: transparent;
+  --frame-background-color: transparent;
 
   background:
     /* Top Left */
@@ -23,8 +23,14 @@
       bottom right / var(--corner-length) var(--corner-thickness) no-repeat,
     linear-gradient(var(--corner-color), var(--corner-color)) bottom right /
       var(--corner-thickness) var(--corner-length) no-repeat,
-    var(--background-color);
+    var(--frame-background-color);
 
+  display: flex;
+  justify-content: flex-start;
+  align-items: center;
+  flex-direction: column;
+
+  gap: 12px;
   width: 100%;
   max-width: calc(1146px + 0.5rem);
   height: fit-content;

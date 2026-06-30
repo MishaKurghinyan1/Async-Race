@@ -1,6 +1,5 @@
-import { useState } from 'react';
 import './App.css';
-import { Header, Main } from '@/Components';
+import { Header, Main } from '@/components';
 
 function App() {
   return (

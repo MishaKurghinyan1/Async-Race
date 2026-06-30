@@ -6,7 +6,7 @@
   font-family: arial;
 }
 body {
-  background-image: url('@/assets/IMGs/background.jpg');
+  background-image: url('@/assets/images/background/background.jpg');
   background-size: cover;
   background-repeat: no-repeat;
   backdrop-filter: blur(5px) brightness(0.3);

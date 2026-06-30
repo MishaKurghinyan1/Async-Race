@@ -1,3 +1,63 @@
+.inputsContainer {
+  display: flex;
+  width: 80%;
+  justify-content: space-around;
+  align-items: center;
+  gap: 24px;
+}
+
+.editor {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  flex-direction: column;
+  gap: 8px;
+  width: 100%;
+  height: fit-content;
+}
+
+.inputGroup {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  gap: 8px;
+}
+
+.button {
+  width: 100%;
+  background: none;
+  color: var(--main-color);
+  border: var(--main-color) 1px solid;
+  padding: 8px 16px;
+}
+
+.button:hover {
+  border: rgb(0, 0, 0) 1px solid;
+  background-color: var(--main-color);
+  color: rgb(0, 0, 0);
+}
+
+input[type='color'] {
+  background-color: black;
+  width: 40px;
+  height: 40px;
+  padding: 0;
+  border: none;
+}
+
+.racingButtons {
+  display: flex;
+  flex-direction: column;
+  gap: 8px;
+  justify-content: center;
+  align-items: center;
+  width: 100%;
+}
+.generate {
+  font-size: 18px;
+  align-self: stretch;
+}
+
 .full-race {
   display: flex;
   flex-direction: column;
@@ -24,8 +84,7 @@
   display: flex;
   justify-content: center;
   align-items: flex-start;
-  gap: 0;
-  padding: 16px 8px;
+  padding: 26px 18px;
   width: 100%;
   height: fit-content;
   background-color: var(--background-color);
@@ -44,7 +103,7 @@
 .finish-line {
   width: 68px;
   align-self: stretch;
-  background-image: url('@/assets/IMGs/finishLine.jpg');
+  background-image: url('@/assets/images/finishLine.jpg');
   background-size: 100%;
   background-position: center;
   background-repeat: repeat-y;
@@ -61,11 +120,64 @@
   background-color: var(--background-color);
   color: var(--main-color);
 }
-.nav > p {
+
+.turn-page {
+  color: var(--main-color);
   font-weight: bold;
   padding: 10px;
 }
 
+.turn-page:disabled {
+  color: rgba(0, 0, 0, 0.5);
+}
+
+.turn-page:disabled:hover {
+  background-color: var(--background-color);
+  opacity: 0.5;
+}
+
 .turn-page:hover {
   background-color: var(--background-color);
+}
+
+@media (max-width: 1128px) {
+  .inputGroup {
+    width: 100%;
+  }
+  input[type='text'] {
+    width: 100%;
+  }
+  .inputsContainer {
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 8px;
+  }
+
+  .editor {
+    width: 100%;
+  }
+
+  .button {
+    padding: 12px;
+    width: 100%;
+  }
+  .racingButtons {
+    flex-direction: row;
+  }
+  .generate {
+    font-size: 16px;
+  }
+  p {
+    font-size: 16px;
+  }
+}
+
+@media (max-width: 610px) {
+  .turn-page {
+    font-size: 8px;
+  }
+  p {
+    font-size: 8px;
+  }
 }

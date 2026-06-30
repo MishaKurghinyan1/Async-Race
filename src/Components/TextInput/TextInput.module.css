@@ -3,10 +3,10 @@
   justify-content: flex-start;
   align-items: center;
   padding: 10px 4.5px;
+  height: fit-content;
   background-color: #000000;
-  background-image: url('@/assets/IMGs/inputBG.png');
+  background-image: url('@/assets/images/background/inputbackground.png');
   background-repeat: repeat-x;
-  border-radius: 4px;
   background-size: contain;
   color: #fff;
   border: none;
@@ -16,7 +16,7 @@
   color: #b1b1b1;
 }
 
-@media (max-width: 768px) {
+@media (max-width: 1128px) {
   .inputContainer {
     padding: 8px 4px;
     font-size: 12px;
