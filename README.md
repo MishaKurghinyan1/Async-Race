@@ -1,6 +1,6 @@
 # 🏎️ Async Race
 
-> **Score:** `___/500`
+> **Score:** `180/500`
 > **Deployed UI:** [Live Demo](#)
 
 ---
@@ -67,7 +67,7 @@ npm run ci:format    # Check formatting without writing
 |        | &nbsp;&nbsp;• Name of view ("Winners")                                       | [✅]   |
 |        | &nbsp;&nbsp;• Winners table                                                  | [✅]   |
 |        | &nbsp;&nbsp;• Pagination                                                     | [✅]   |
-| 30     | **Persistent State** — page numbers and input states preserved between views | [ ]    |
+| 30     | **Persistent State** — page numbers and input states preserved between views | [✅]   |
 
 ---
 
@@ -75,13 +75,13 @@ npm run ci:format    # Check formatting without writing
 
 | Points | Feature                                                                                                                      | Status |
 | ------ | ---------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 20     | **CRUD Operations** — create, update, delete cars (name + color); handles empty/too long names; deletes from winners too     | [ ]    |
-| 10     | **Color Selection** — RGB palette with live preview on car image                                                             | [ ]    |
-| 20     | **Random Car Creation** — button generates 100 cars per click; names from two random parts (10+ options each); random colors | [ ]    |
+| 20     | **CRUD Operations** — create, update, delete cars (name + color); handles empty/too long names; deletes from winners too     | [✅]   |
+| 10     | **Color Selection** — RGB palette with live preview on car image                                                             | [✅]   |
+| 20     | **Random Car Creation** — button generates 100 cars per click; names from two random parts (10+ options each); random colors | [✅]   |
 | 10     | **Car Management Buttons** — update and delete buttons near each car                                                         | [✅]   |
-| 10     | **Pagination** — 7 cars per page                                                                                             | [ ]    |
-| 10     | ⭐ **EXTRA: Empty Garage** — user-friendly "No Cars" message                                                                 | [ ]    |
-| 10     | ⭐ **EXTRA: Empty Page Redirect** — removing the last car on a page navigates to the previous page                           | [ ]    |
+| 10     | **Pagination** — 7 cars per page                                                                                             | [✅]   |
+| 10     | ⭐ **EXTRA: Empty Garage** — user-friendly "No Cars" message                                                                 | [✅]   |
+| 10     | ⭐ **EXTRA: Empty Page Redirect** — removing the last car on a page navigates to the previous page                           | [✅]   |
 
 ---
 
@@ -89,9 +89,9 @@ npm run ci:format    # Check formatting without writing
 
 | Points | Feature                                                                                                                         | Status |
 | ------ | ------------------------------------------------------------------------------------------------------------------------------- | ------ |
-| 15     | **Display Winners** — winning cars shown in the Winners table                                                                   | [ ]    |
-| 10     | **Pagination** — 10 winners per page                                                                                            | [ ]    |
-| 15     | **Winners Table** — columns: №, image, name, wins, best time; wins increment on repeat wins; best time only updates if improved | [ ]    |
+| 15     | **Display Winners** — winning cars shown in the Winners table                                                                   | [✅]   |
+| 10     | **Pagination** — 10 winners per page                                                                                            | [✅]   |
+| 15     | **Winners Table** — columns: №, image, name, wins, best time; wins increment on repeat wins; best time only updates if improved | [✅]   |
 | 10     | **Sorting** — sort by wins and best time, ascending and descending                                                              | [ ]    |
 
 ---
@@ -124,8 +124,8 @@ npm run ci:format    # Check formatting without writing
 
 | Feature                                                                                                         | Status |
 | --------------------------------------------------------------------------------------------------------------- | ------ |
-| **Modular Design** — clear separation of API, UI rendering, and state management layers                         | [✅]   |
+| **Modular Design** — clear separation of API, UI rendering, and state management layers                         | [ ]    |
 | **Function Modularization** — small, named functions with single purposes; helpers extracted; max 40 lines each | [ ]    |
 | **No Code Duplication / No Magic Numbers** — no repeated logic; no unexplained literals                         | [ ]    |
-| **Readability** — clear variable, function, and module names                                                    | [✅]   |
+| **Readability** — clear variable, function, and module names                                                    | [ ]    |
 | **Extra Features** — e.g. custom hooks, portals, React Router (React), or equivalent                            | [ ]    |
